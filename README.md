@@ -211,4 +211,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by the SmartTodo Pro team** 
+**Made with ❤️ by Bavly Hamdy** 
