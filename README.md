@@ -1,4 +1,8 @@
-# SmartTodo Pro
+# SmartTodo Pro
+
+[![CI](https://github.com/Bavly-Hamdy/SmartTodo-Pro/actions/workflows/ci.yml/badge.svg)](https://github.com/Bavly-Hamdy/SmartTodo-Pro/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/Bavly-Hamdy/SmartTodo-Pro/branch/main/graph/badge.svg)](https://codecov.io/gh/Bavly-Hamdy/SmartTodo-Pro)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A next-generation task and goal management platform built with React and Firebase, featuring AI-powered features, end-to-end encryption, and real-time collaboration.
 
@@ -10,6 +14,8 @@ A next-generation task and goal management platform built with React and Firebas
 - **Multiple Views**: Kanban board, calendar view, and timeline view
 - **Real-time Collaboration**: Work together with team members in shared workspaces
 - **End-to-End Encryption**: All sensitive data is encrypted client-side
+- **Bilingual UI**: English & Arabic support
+- **Dark/Light Mode**: Seamless theme switching
 
 ### AI-Powered Features
 - **Smart Goal Decomposition**: Automatically break down complex goals into manageable subtasks
@@ -53,10 +59,10 @@ A next-generation task and goal management platform built with React and Firebas
 - **Role-based Access Control**
 - **Secure Firestore Rules**
 
-## 📦 Installation
+## 📦 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js 18+
 - npm or yarn
 - Firebase project
 
@@ -64,8 +70,8 @@ A next-generation task and goal management platform built with React and Firebas
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/smarttodo-pro.git
-   cd smarttodo-pro
+   git clone https://github.com/Bavly-Hamdy/SmartTodo-Pro.git
+   cd SmartTodo-Pro
    ```
 
 2. **Install dependencies**
@@ -79,7 +85,7 @@ A next-generation task and goal management platform built with React and Firebas
    - Download your Firebase config
 
 4. **Environment Variables**
-   Create a `.env` file in the root directory:
+   Create a `.env.local` file in the root directory:
    ```env
    REACT_APP_FIREBASE_API_KEY=your_api_key
    REACT_APP_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
@@ -129,7 +135,7 @@ src/
 ### Available Scripts
 
 - `npm start` - Start development server
-- `npm build` - Build for production
+- `npm run build` - Build for production
 - `npm test` - Run tests
 - `npm run test:coverage` - Run tests with coverage
 - `npm run lint` - Run ESLint
@@ -171,35 +177,6 @@ The project uses:
 2. **Set environment variables in Vercel dashboard**
 3. **Deploy automatically on push to main branch**
 
-## 🔐 Security
-
-### Encryption
-- All sensitive task data is encrypted client-side using AES-256
-- Encryption keys are generated per user and stored securely
-- Data is decrypted only when needed for display
-
-### Authentication
-- Firebase Authentication with email/password
-- Multi-factor authentication support
-- Secure session management
-
-### Data Protection
-- Firestore security rules ensure data access control
-- Role-based permissions for shared workspaces
-- Regular security audits and updates
-
-## 📊 Analytics & Monitoring
-
-### Performance Monitoring
-- Firebase Performance Monitoring
-- Real-time error tracking
-- User behavior analytics
-
-### Business Intelligence
-- Task completion rates
-- Productivity trends
-- User engagement metrics
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -221,8 +198,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 - **Documentation**: [docs.smarttodo.pro](https://docs.smarttodo.pro)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/smarttodo-pro/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/smarttodo-pro/discussions)
+- **Issues**: [GitHub Issues](https://github.com/Bavly-Hamdy/SmartTodo-Pro/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/Bavly-Hamdy/SmartTodo-Pro/discussions)
 - **Email**: support@smarttodo.pro
 
 ## 🙏 Acknowledgments
